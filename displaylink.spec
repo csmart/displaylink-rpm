@@ -1,5 +1,5 @@
 %{!?_daemon_version:%global _daemon_version 5.4.1-55.174}
-%{!?_version:%global _version 1.9.1}
+%{!?_version:%global _version 1.10.1}
 %{!?_release:%global _release 3}
 
 # Disable RPATH since DisplayLinkManager contains this.
@@ -59,7 +59,7 @@ Requires:	make
 Requires:	libusbx
 Conflicts:	xorg-x11-server-Xorg = 1.20.1
 
-Provides:	bundled(libevdi) = 1.9.1
+Provides:	bundled(libevdi) = 1.10.1
 
 %description
 This adds support for HDMI/VGA adapters built upon the DisplayLink DL-6xxx,
